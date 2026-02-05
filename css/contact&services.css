@@ -1,0 +1,83 @@
+.service-container {
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  min-height: 100vh;
+}
+
+.content-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+/* services box */
+.services-box {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.service-container h2 {
+  color: #2c3e50;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+
+.services-grid {
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.service-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  padding: 15px;
+}
+
+.service-item i {
+  font-size: 24px;
+  color: #2c3e50;
+}
+
+/* horaires */
+.horaires-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.horaire-box {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  padding: 25px;
+}
+
+.horaire-box h3 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.horaire-box h3 i {
+  color: #3498db;
+}
+
+.horaire-box p {
+  color: #555;
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+/* contact-box */
+
+/* je continue demain bisou */

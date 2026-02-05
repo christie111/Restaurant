@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M'RAUDE</title>
+    <!-- icone burger -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/ensemble.css" />
+    <link rel="stylesheet" href="css/contact&services.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="logo">
+          <a href="#">
+            <img src="img/Logo_m.png" alt="logo mraude" />
+          </a>
+        </div>
+
+        <ul class="links">
+          <li><a href="accueil.html">Acceuil</a></li>
+          <li><a href="menu.html">Nos menus</a></li>
+          <li><a href="a_propos.html">A propos</a></li>
+          <li><a href="contact_&_servives.html">Contact & Services</a></li>
+        </ul>
+
+        <a href="#" class="action_btn">Commencer</a>
+        <div class="toggle_btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+
+      <div class="dropdown_menu">
+        <li><a href="accueil.html">Acceuil</a></li>
+        <li><a href="menu.html">nos menus</a></li>
+        <li><a href="a_propos.html">A propos</a></li>
+        <li><a href="contact_&_servives.html">Contact & Services</a></li>
+        <li><a href="#" class="action_btn">Commencer</a></li>
+      </div>
+    </header>
+
+    <main class="service-container">
+      <div class="content-wrapper">
+        <!-- colonne gauche: services + horaires -->
+        <div class="left-column">
+          <section class="services-box">
+            <h2>Nos Services</h2>
+            <div class="services-grid">
+              <div class="service-item">
+                <i class="fa-solid fa-car"></i>
+                <span>Parking privé</span>
+              </div>
+
+              <div class="service-item">
+                <i class="fa-solid fa-utensils"></i>
+                <span>Restaurat & petit dejeuner</span>
+              </div>
+
+              <div class="service-item">
+                <i class="fa-solid fa-clock"></i>
+                <span>Ouvert 7j/7j</span>
+              </div>
+
+              <div class="service-item">
+                <i class="fa-solid fa-paw"></i>
+                <span>Animaux acceptés</span>
+              </div>
+
+              <div class="service-item">
+                <i class="fa-solid fa-umbrella-beach"></i>
+                <span>Terrasse</span>
+              </div>
+            </div>
+
+            <div class="service-item">
+              <i class="fa-solid fa-wifi"></i>
+              <span>WIFI gratuit</span>
+            </div>
+
+            <div class="service-item">
+              <i class="fa-solid fa-users"></i>
+              <span>Soirée étape</span>
+            </div>
+
+            <div class="service-item">
+              <i class="fa-solid fa-chalkboard"></i>
+              <span>Salle de séminaire</span>
+            </div>
+
+            <div class="service-item">
+              <i class="fa-solid fa-wheelchair"></i>
+              <span>Chambre PMR</span>
+            </div>
+
+            <div class="service-item">
+              <i class="fa-solid fa-moon"></i>
+              <span>Chambre PMR</span>
+            </div>
+
+            <div class="service-item">
+              <i class="fa-solid fa-bed"></i>
+              <span>13 chambres</span>
+            </div>
+          </section>
+
+          <div class="horaires-wrapper">
+            <div class="horaire-box">
+              <h3><i class="fa-solid fa-utensils"></i> Restaurant</h3>
+              <p>Lundi : Fermé</p>
+              <p>Mardi : 12h00-15h00</p>
+              <p>Mercredi : 12h00-15h00</p>
+              <p>Jeudi : 12h00-15h00</p>
+              <p>Vendredi : 12h00-15h00, 19h00-23h00</p>
+              <p>Samedi : 12h00-15h00, 19h00-23h00</p>
+              <p>Dimanche : 12h00-17h00, 19h00-22h30</p>
+            </div>
+
+            <div class="horaire-box">
+              <h3><i class="fa-solid fa-hotel"></i> Hôtel</h3>
+              <p>Lundi : 7h - 10h, 17h - 21h</p>
+              <p>Mardi : 7h - 15h, 17h - 21h</p>
+              <p>Mercredi : 7h - 15h, 17h - 21h</p>
+              <p>Jeudi : 7h - 15h, 17h - 21h</p>
+              <p>Vendredi : 7h - 15h, 17h - 21h</p>
+              <p>Samedi : 7h - 15h, 17h - 21h</p>
+              <p>Dimanche : 7h - 15h, 17h - 21h</p>
+            </div>
+          </div>
+
+          <!-- colonne droite: Contact -->
+          <div class="right-column">
+            <section class="contact-box">
+              <h2><i class="fa-solid fa-envelope"></i> Contact</h2>
+
+              <form>
+                <label>Nom</label>
+                <input type="text" required />
+
+                <label>Email</label>
+                <input type="email" required />
+
+                <label>Téléphone</label>
+                <input type="tel" />
+
+                <label>Date de reservation</label>
+                <input type="date" required />
+
+                <label>Nombre de personnes</label>
+                <input type="number" min="1" required />
+
+                <label>Heure d'arrivée</label>
+                <input type="time" required />
+                <label>Nom</label>
+
+                <button type="submit"></button>
+              </form>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer_logo">
+        <div class="logo">
+          <a href="accueil.html">
+            <img src="img/Logo_m.png" alt="logo mraude" />
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-container">
+        <!-- contact -->
+        <div class="footer-box">
+          <h3>Contactez-nous</h3>
+          <p>Téléphone : 01 23 45 67 89</p>
+          <p>Email : contact@m_raude.fr</p>
+        </div>
+
+        <div class="footer-box">
+          <h3>Horaires Restaurant</h3>
+          <p>Lundi : Fermé</p>
+          <p>Mardi : 12h00-15h00</p>
+          <p>Mercredi : 12h00-15h00</p>
+          <p>Jeudi : 12h00-15h00</p>
+          <p>Vendredi : 12h00-15h00, 19h00-23h00</p>
+          <p>Samedi : 12h00-15h00, 19h00-23h00</p>
+          <p>Dimanche : 12h00-17h00, 19h00-22h30</p>
+        </div>
+
+        <div class="footer-box">
+          <h3>Nous situer</h3>
+          <p>15 Avenue des Rois</p>
+          <p>75000 Paris</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9998004117927!2d2.292292615674868!3d48.87379177929162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fec70fb1d8f%3A0xd9b5676e112e643d!2sArc%20de%20Triomphe!5e0!3m2!1sfr!2sfr!4v1706187260000!5m2!1sfr!2sfr"
+            width="100%"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </div>
+      </div>
+    </footer>
+
+    <!-- pour rendre le menu deroulant en cliquant sur le burger  -->
+
+    <script>
+      const toggleBtn = document.querySelector(".toggle_btn");
+      const toggleBtnIcon = document.querySelector(".toggle_btn i");
+      const dropDownMenu = document.querySelector(".dropdown_menu");
+
+      toggleBtn.onclick = function () {
+        dropDownMenu.classList.toggle("open");
+        toggleBtnIcon.className = dropDownMenu.classList.contains("open")
+          ? "fa-solid fa-xmark"
+          : "fa-solid fa-bars";
+      };
+    </script>
+  </body>
+</html>

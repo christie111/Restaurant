@@ -12,7 +12,7 @@
   gap: 30px;
 }
 
-/* services box */
+/* Services Box */
 .services-box {
   background: rgba(255, 255, 255, 0.95);
   border-radius: 15px;
@@ -20,14 +20,14 @@
   margin-bottom: 30px;
 }
 
-.service-container h2 {
+.services-box h2 {
   color: #2c3e50;
   margin-bottom: 25px;
   font-size: 24px;
 }
 
 .services-grid {
-  display: flex;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
@@ -43,10 +43,15 @@
 
 .service-item i {
   font-size: 24px;
+  color: #3498db;
+}
+
+.service-item span {
+  font-size: 14px;
   color: #2c3e50;
 }
 
-/* horaires */
+/* Horaires */
 .horaires-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -78,6 +83,78 @@
   font-size: 14px;
 }
 
-/* contact-box */
+/* Contact Box */
+.contact-box {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  padding: 30px;
+  height: fit-content;
+}
 
-/* je continue demain bisou */
+.contact-box h2 {
+  color: #2c3e50;
+  margin-bottom: 25px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-box h2 i {
+  color: #3498db;
+}
+
+.contact-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-box label {
+  color: #e74c3c;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.contact-box input,
+.contact-box textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  background: white;
+}
+
+.contact-box input:focus,
+.contact-box textarea:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.contact-box button {
+  background: #e74c3c;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 10px;
+  align-self: flex-start;
+}
+
+.contact-box button:hover {
+  background: #c0392b;
+}
+
+/* Responsive */
+@media (max-width: 968px) {
+  .content-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

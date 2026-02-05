@@ -45,7 +45,7 @@
 
     <main class="service-container">
       <div class="content-wrapper">
-        <!-- colonne gauche: services + horaires -->
+        <!-- Colonne gauche : Services + Horaires -->
         <div class="left-column">
           <section class="services-box">
             <h2>Nos Services</h2>
@@ -54,56 +54,46 @@
                 <i class="fa-solid fa-car"></i>
                 <span>Parking privé</span>
               </div>
-
               <div class="service-item">
                 <i class="fa-solid fa-utensils"></i>
-                <span>Restaurat & petit dejeuner</span>
+                <span>Restaurant & petit déjeuner</span>
               </div>
-
               <div class="service-item">
                 <i class="fa-solid fa-clock"></i>
                 <span>Ouvert 7j/7j</span>
               </div>
-
               <div class="service-item">
                 <i class="fa-solid fa-paw"></i>
                 <span>Animaux acceptés</span>
               </div>
-
               <div class="service-item">
                 <i class="fa-solid fa-umbrella-beach"></i>
                 <span>Terrasse</span>
               </div>
-            </div>
-
-            <div class="service-item">
-              <i class="fa-solid fa-wifi"></i>
-              <span>WIFI gratuit</span>
-            </div>
-
-            <div class="service-item">
-              <i class="fa-solid fa-users"></i>
-              <span>Soirée étape</span>
-            </div>
-
-            <div class="service-item">
-              <i class="fa-solid fa-chalkboard"></i>
-              <span>Salle de séminaire</span>
-            </div>
-
-            <div class="service-item">
-              <i class="fa-solid fa-wheelchair"></i>
-              <span>Chambre PMR</span>
-            </div>
-
-            <div class="service-item">
-              <i class="fa-solid fa-moon"></i>
-              <span>Chambre PMR</span>
-            </div>
-
-            <div class="service-item">
-              <i class="fa-solid fa-bed"></i>
-              <span>13 chambres</span>
+              <div class="service-item">
+                <i class="fa-solid fa-wifi"></i>
+                <span>WIFI gratuit</span>
+              </div>
+              <div class="service-item">
+                <i class="fa-solid fa-users"></i>
+                <span>Soirée étape</span>
+              </div>
+              <div class="service-item">
+                <i class="fa-solid fa-chalkboard"></i>
+                <span>Salle de séminaire</span>
+              </div>
+              <div class="service-item">
+                <i class="fa-solid fa-wheelchair"></i>
+                <span>Chambre PMR</span>
+              </div>
+              <div class="service-item">
+                <i class="fa-solid fa-moon"></i>
+                <span>Service du soir</span>
+              </div>
+              <div class="service-item">
+                <i class="fa-solid fa-bed"></i>
+                <span>13 chambres</span>
+              </div>
             </div>
           </section>
 
@@ -130,36 +120,34 @@
               <p>Dimanche : 7h - 15h, 17h - 21h</p>
             </div>
           </div>
+        </div>
 
-          <!-- colonne droite: Contact -->
-          <div class="right-column">
-            <section class="contact-box">
-              <h2><i class="fa-solid fa-envelope"></i> Contact</h2>
+        <!-- Colonne droite : Contact -->
+        <div class="right-column">
+          <section class="contact-box">
+            <h2><i class="fa-solid fa-envelope"></i> Contact</h2>
+            <form>
+              <label>Nom</label>
+              <input type="text" required />
 
-              <form>
-                <label>Nom</label>
-                <input type="text" required />
+              <label>Email</label>
+              <input type="email" required />
 
-                <label>Email</label>
-                <input type="email" required />
+              <label>Téléphone</label>
+              <input type="tel" />
 
-                <label>Téléphone</label>
-                <input type="tel" />
+              <label>Date de réservation</label>
+              <input type="date" required />
 
-                <label>Date de reservation</label>
-                <input type="date" required />
+              <label>Nombre de personnes</label>
+              <input type="number" min="1" required />
 
-                <label>Nombre de personnes</label>
-                <input type="number" min="1" required />
+              <label>Heure d'arrivée</label>
+              <input type="time" required />
 
-                <label>Heure d'arrivée</label>
-                <input type="time" required />
-                <label>Nom</label>
-
-                <button type="submit"></button>
-              </form>
-            </section>
-          </div>
+              <button type="submit">Envoyer</button>
+            </form>
+          </section>
         </div>
       </div>
     </main>

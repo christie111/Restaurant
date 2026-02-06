@@ -41,21 +41,153 @@
         <li><a href="contact_&_servives.html">Contact & Services</a></li>
         <li><a href="#" class="action_btn">Commencer</a></li>
       </div>
-      <!-- pour rendre le menu deroulant en cliquant sur le burger  -->
-      <script>
-        const toggleBtn = document.querySelector(".toggle_btn");
-        const toggleBtnIcon = document.querySelector(".toggle_btn i");
-        const dropDownMenu = document.querySelector(".dropdown_menu");
-
-        toggleBtn.onclick = function () {
-          dropDownMenu.classList.toggle("open");
-
-          const isOpen = dropDownMenu.classList.contains("open");
-          toggleBtnIcon.classList = isOpen
-            ? "fa-solid fa-xmark"
-            : "fa-solid fa-bars";
-        };
-      </script>
     </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Restaurant & Hôtel</h1>
+        <h2>M'RAUDE</h2>
+        <a href="#chambres" class="hero-btn"> Découvrir l'hôtel</a>
+      </div>
+    </section>
+
+    <!-- chambres -->
+    <section id="chambres" class="chambres-section">
+      <h2 class="section-tiltle">Les <span>chambres</span></h2>
+      <p class="section-subtitle">
+        Séjournez dans l'une de nos 13 chambres confortables, pensées pour votre
+        détente.
+      </p>
+
+      <div class="chambres-grid">
+        <div class="chambre-card">
+          <img src="img/chambreone.jpg" alt="Chambre Standard" />
+          <div class="chambre-info">
+            <span class="price">65€</span>
+            <h3>Chambre Standard</h3>
+            <p>Chambre confortable avec lit double</p>
+            <a href="#" class="chambre-btn">voir les options</a>
+          </div>
+        </div>
+
+        <div class="chambre-card">
+          <img src="img/chambretwo.jpg" alt="chambre familiale" />
+          <div class="chambre-info">
+            <span class="price">A partir de 75€</span>
+            <h3>Chambre Familiale</h3>
+            <p>Différentes configurations disponibles</p>
+            <a href="#" class="chambre-btn">Voir les configurations →</a>
+          </div>
+        </div>
+      </div>
+
+      <a href="#" class="reserve-btn">Réserver une chambre</a>
+    </section>
+
+    <!-- Soirée Etape -->
+    <section class="soiree-etape">
+      <div class="soiree-content">
+        <h2>Soirée <span>étapes</span></h2>
+        <p>
+          Pour vos déplacements professionnels, notre formule « Soirée Étape »
+          allie confort et praticité. Profitez d'une chambre tout équipée pour
+          vous détendre après une journée bien remplie, et savourez un dîner
+          préparé avec soin dans une ambiance conviviale. Un petit-déjeuner
+          complet est également à votre disposition pour bien commencer votre
+          journée. Notre établissement est idéalement conçu pour répondre aux
+          besoins des voyageurs d'affaires, avec un cadre apaisant et des
+          services adaptés pour un séjour sans contraintes. Faites de chaque
+          étape un moment de bien-être et de plaisir.
+        </p>
+        <a href="#" class="contact-btn">Contactez-nous</a>
+      </div>
+
+      <div class="soiree-images">
+        <img src="img/chambretree.jpg" alt="Soirée étapes1" />
+        <img src="img/chambrefoor.jpg" alt="Soirée étapes2" />
+      </div>
+    </section>
+
+    <!-- notre restaurant -->
+    <section class="restaurant-section">
+      <h2 class="section-title">Notre <span>Restaurant</span></h2>
+
+      <div class="restaurant-grid">
+        <img src="img/restaurant.jpg" alt="Restaurant" class="restaurant-img" />
+
+        <div class="restaurant-info">
+          <h3>Les vendredis soir</h3>
+          <p>
+            Venez découvrir notre authentique choucroute alsacienne préparée
+            selon la tradition. Notre chef vous propose une sélection de
+            charcuteries artisanales accompagnées de notre choucroute mijotée au
+            vin blanc d'Alsace. Une soirée conviviale dans une ambiance
+            chaleureuse pour savourer les spécialités de l'Est de la France
+            entre amis ou en famille.
+          </p>
+          <a href="menu.html">DECOUVRIR LE MENU </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer_logo">
+        <div class="logo">
+          <a href="accueil.html">
+            <img src="img/Logo_m.png" alt="logo mraude" />
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-container">
+        <!-- contact -->
+        <div class="footer-box">
+          <h3>Contactez-nous</h3>
+          <p>Téléphone : 01 23 45 67 89</p>
+          <p>Email : contact@m_raude.fr</p>
+        </div>
+
+        <div class="footer-box">
+          <h3>Horaires Restaurant</h3>
+          <p>Lundi : Fermé</p>
+          <p>Mardi : 12h00-15h00</p>
+          <p>Mercredi : 12h00-15h00</p>
+          <p>Jeudi : 12h00-15h00</p>
+          <p>Vendredi : 12h00-15h00, 19h00-23h00</p>
+          <p>Samedi : 12h00-15h00, 19h00-23h00</p>
+          <p>Dimanche : 12h00-17h00, 19h00-22h30</p>
+        </div>
+
+        <div class="footer-box">
+          <h3>Nous situer</h3>
+          <p>15 Avenue des Rois</p>
+          <p>75000 Paris</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9998004117927!2d2.292292615674868!3d48.87379177929162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fec70fb1d8f%3A0xd9b5676e112e643d!2sArc%20de%20Triomphe!5e0!3m2!1sfr!2sfr!4v1706187260000!5m2!1sfr!2sfr"
+            width="100%"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </div>
+      </div>
+    </footer>
+
+    <!-- pour rendre le menu deroulant en cliquant sur le burger  -->
+    <script>
+      const toggleBtn = document.querySelector(".toggle_btn");
+      const toggleBtnIcon = document.querySelector(".toggle_btn i");
+      const dropDownMenu = document.querySelector(".dropdown_menu");
+
+      toggleBtn.onclick = function () {
+        dropDownMenu.classList.toggle("open");
+        toggleBtnIcon.className = dropDownMenu.classList.contains("open")
+          ? "fa-solid fa-xmark"
+          : "fa-solid fa-bars";
+      };
+    </script>
   </body>
 </html>

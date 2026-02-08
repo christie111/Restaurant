@@ -24,7 +24,7 @@
         <ul class="links">
           <li><a href="accueil.html">Acceuil</a></li>
           <li><a href="menu.html">Nos menus</a></li>
-          <li><a href="a_propos.html">A propos</a></li>
+
           <li><a href="contact_&_servives.html">Contact & Services</a></li>
         </ul>
 
@@ -37,7 +37,6 @@
       <div class="dropdown_menu">
         <li><a href="accueil.html">Acceuil</a></li>
         <li><a href="menu.html">nos menus</a></li>
-        <li><a href="a_propos.html">A propos</a></li>
         <li><a href="contact_&_servives.html">Contact & Services</a></li>
         <li><a href="#" class="action_btn">Commencer</a></li>
       </div>
@@ -225,40 +224,39 @@
     <!-- contact -->
 
     <section class="contact-grid">
-            <div class="contact-info">
-              <h2><i class="fa-solid fa-envelope"></i> Contact</h2>
-              <p>Une question ? Une réservation ? Ou simplement envie d’en savoir plus ? N’hésitez pas à nous contacter, nous vous répondrons dans les plus brefs délais.</p>
-              <h3><i class="fa-solid fa-phone"></i> 09 56 30 98 18</h3>
-              <h3><i class="fa-solid fa-location-dot"></i></i> 09 56 30 98 18</h3>
+      <div class="contact-info">
+        <h2><i class="fa-solid fa-envelope"></i> Contact</h2>
+        <p>
+          Une question ? Une réservation ? Ou simplement envie d’en savoir plus
+          ? N’hésitez pas à nous contacter, nous vous répondrons dans les plus
+          brefs délais.
+        </p>
+        <h3><i class="fa-solid fa-phone"></i> 09 56 30 98 18</h3>
+        <h3><i class="fa-solid fa-location-dot"></i>09 56 30 98 18</h3>
+      </div>
 
-            </div>
+      <form>
+        <label>Nom</label>
+        <input type="text" required />
 
-            <form>
-              <label>Nom</label>
-              <input type="text" required />
+        <label>Email</label>
+        <input type="email" required />
 
-              <label>Email</label>
-              <input type="email" required />
+        <label>Téléphone</label>
+        <input type="tel" />
 
-              <label>Téléphone</label>
-              <input type="tel" />
+        <label>Date de réservation</label>
+        <input type="date" required />
 
-              <label>Date de réservation</label>
-              <input type="date" required />
+        <label>Nombre de personnes</label>
+        <input type="number" min="1" required />
 
-              <label>Nombre de personnes</label>
-              <input type="number" min="1" required />
+        <label>Heure d'arrivée</label>
+        <input type="time" required />
 
-              <label>Heure d'arrivée</label>
-              <input type="time" required />
-
-              <button type="submit">Envoyer</button>
-            </form>
-      </section>
-
-
-
-
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
 
     <!-- footer -->
     <footer class="footer">
